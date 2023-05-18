@@ -35,7 +35,7 @@ The confusion matrix is for the Random Forest model. Out of the 300,000 observat
 
 ![](./images/cm_rf.png)
 
-With the Random forest model we can also determined the most important variables by the Gini index. A higher Gini index indicates the variable contributes to the model predicted performance. The plot below gives the order of importance by the Mean decrease in Gini index. Meaning how much the model performance would change is that variable was not in the model. Thus, the top most important variables are the  `ratio_to_mean_purchase_price`, `online_order` and `distance_from_home`.
+With the Random forest model we can also determined the most important variables by the Gini index. A higher Gini index indicates the variable contributes to the model predicted performance. The plot below gives the order of importance by the Mean decrease in Gini index. Meaning how much the model performance would change is that variable was not in the model. Thus, the top most important variables are the  `ratio_to_mean_purchase_price`, `online_order` and `distance_from_home` in determining fraud in credit card transactions.
 
 
 ![](./images/varImpPlot.png)
